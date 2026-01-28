@@ -1,0 +1,11 @@
+{
+  "id": 101,
+  "name": "Heersare",
+  "isPremium": true,
+  "location": {
+    "city": "Östersund",
+    "country": "Sweden"
+  },
+  "favorites": ["Coding", "JavaScript", "Photography"],
+  "stats": null
+}
