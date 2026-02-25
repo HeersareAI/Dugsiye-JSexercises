@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercise39</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>exercise39</h1>
+    <div class="translator-container">
+        <h1>Global Translator</h1>
+
+        <div class="controls">
+            <select id="fromLang">
+                <option value="en-GB">English</option>
+                <option value="es-ES">Spanish</option>
+                <option value="fr-FR">French</option>
+                <option value="fr-FR">Somali</option>
+            </select>
+            <button id="switchBtn">⇄</button>
+            <select id="toLang">
+                <option value="es-ES">Spanish</option>
+                <option value="en-GB">English</option>
+                <option value="fr-FR">French</option>
+                <option value="fr-FR">Somali</option>
+            </select>
+        </div>
+
+        <div class="text-areas">
+            <textarea id="fromText" placeholder="Enter text..."></textarea>
+            <textarea id="toText" placeholder="Translation" readonly></textarea>
+        </div>
+
+        <button id="translateBtn">Translate Text</button>
+    </div>
 
     <script src="main.js"></script>
 </body>
+
 </html>
